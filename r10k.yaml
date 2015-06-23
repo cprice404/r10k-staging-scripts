@@ -1,0 +1,7 @@
+# A list of git repositories to create
+:sources:
+  # This will clone the git repository and instantiate an environment per
+  # branch in /etc/puppet/environments
+  :cprice-r10k-foo:
+    remote: 'https://github.com/cprice404/r10k-foo.git'
+    basedir: './public-code-staging/environments'
